@@ -10,6 +10,7 @@
 int main(void)
 {
 	char z = 'z';
+
 	while(z >= 'a')
 	{
 		putchar(z);
