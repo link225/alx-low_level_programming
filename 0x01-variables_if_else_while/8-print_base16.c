@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < 16)
 	{
-		if (i < 16)
+		if (i < 10)
 		{
 			putchar(i + '0');
 		} else
