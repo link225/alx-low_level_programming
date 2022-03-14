@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (i < 10)
 		{
-			putchar(i + "0");
+			putchar(i + '0');
 		} else
 		{
 			putchar(ch);
