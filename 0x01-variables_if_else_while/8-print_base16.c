@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < 16)
 	{
-		if (i < 10)
+		if (i < 16)
 		{
 			putchar(i + '0');
 		} else
@@ -22,6 +22,7 @@ int main(void)
 			putchar(ch);
 			ch++;
 		}
+		i++;
 	}
 	putchar('\n');
 
