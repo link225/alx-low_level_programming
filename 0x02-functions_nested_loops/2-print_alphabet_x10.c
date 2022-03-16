@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * print_alphabet - the function to print a to z for alphabet
+ * print_alphabet_x10 - the function to print a to z for alphabet x10
  *
  * Return: char
  **/
