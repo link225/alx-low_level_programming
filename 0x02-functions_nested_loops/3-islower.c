@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  *_islower - the test of entry number
@@ -8,7 +9,7 @@
  **/
 int _islower(int c)
 {
-	if (c > 64 && c < 91)
+	if (!islower(c))
 	{
 		return (0);
 	}
