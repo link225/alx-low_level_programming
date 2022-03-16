@@ -4,9 +4,10 @@
 /* more headers goes there */
 
 /**
- *  main - the main app function
- * Return: 0 for success
- */
+ * print_alphabet - the function to print a to z for alphabet
+ *
+ * Return: char
+ **/
 void print_alphabet(void)
 {
 	char ch;
