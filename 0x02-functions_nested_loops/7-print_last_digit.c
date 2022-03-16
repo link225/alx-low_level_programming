@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *prin_last_digit - the last number of entry number
+ * print_last_digit - the last number of entry number
  * @c : is int
  * Return: int is the last digit of @c;
  **/
