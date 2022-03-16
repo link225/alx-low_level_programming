@@ -2,7 +2,7 @@
 #define MAIN_H_
 void print_r(void);
 
-void _putchar(void);
+char _putchar(char ch);
 
 void print_alphabet(void);
 
