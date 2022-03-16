@@ -7,7 +7,7 @@
  * @c : is int
  * Return: 1 if greater than 0  0 else if 0 else -1 ;
  **/
-int _isalpha(int c)
+int print_sign(int c)
 {
 	if (c > 0)
 	{
