@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+#include <ctype.h>
+
+/**
+ *print_sign - the test of entry sign
+ * @c : is int
+ * Return: 1 if greater than 0  0 else if 0 else -1 ;
+ **/
+int _isalpha(int c)
+{
+	if (c > 0)
+	{
+		return (1);
+	}
+	else if (c == 0)
+	{
+		return (0);
+	}
+	return (-1);
+}
