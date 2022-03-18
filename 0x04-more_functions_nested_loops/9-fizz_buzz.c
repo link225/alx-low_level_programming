@@ -1,16 +1,14 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * print_square - print numbers of line in entry
- * @size: int for loop
+ * main - print numbers of line in entry
  * Return: void
  */
 
-void print_square(int size)
+int main(void)
 {
 	int i = 1, b = 100;
 
-	while (i <= j)
+	while (i <= b)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -26,7 +24,7 @@ void print_square(int size)
 		}
 		else
 		{
-			print("%i", i);
+			printf("%i", i);
 		}
 		if (i != 100)
 			printf(" ");
