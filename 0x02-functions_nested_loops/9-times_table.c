@@ -15,18 +15,26 @@ void times_table(void)
 		for (i = 0; i <= 9; i++)
 		{
 			mul = (i * c);
-			if ((mul / 10) == 0){
-				_putchar(mul + '0');
+			if ((mul / 10) == 0)
+			{
+				if (mul == 0)
+				{
+					_putchar('0');
+				}
+				else
+				{
+					_putchar(' ');
+					_putchar((mul % 10) + '0');
+				}
 				if (i < 9)
 				{
 					_putchar(',');
-					_putchar(' ');
 					_putchar(' ');
 				}
 			}
 			else
 			{
-				_putchar(mul / 10 +'0');
+				_putchar(mul / 10 + '0');
 				_putchar(mul % 10 + '0');
 				if (i < 9)
 				{
