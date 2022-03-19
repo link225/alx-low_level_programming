@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * print_last_digit - the last number of entry number
@@ -11,7 +10,16 @@ int print_last_digit(int c)
 {
 	int last;
 
-	last = abs(c) % 10;
-	_putchar(last + '0');
-	return (last);
+	if (c < 0)
+	{
+		last = (-1 * (c % 10));
+		_putchar(last + '0');
+		return (last);
+	}
+	else
+	{
+		last = (n % 10);
+		_putchar(last + '0');
+		return (last);
+	}
 }
