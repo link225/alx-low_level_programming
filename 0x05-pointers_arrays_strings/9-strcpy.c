@@ -7,12 +7,12 @@
  * Return: void
  */
 
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 
 	char *ch;
 
 	ch = strcpy(dest, src);
 
-	return (*ch);
+	return (ch);
 }
