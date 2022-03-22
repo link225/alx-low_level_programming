@@ -3,7 +3,7 @@
 /**
  * _strcpy - pass to newline
  * @dest: char is pointer
- * @src: char 
+ * @src: char
  * Return: void
  */
 
