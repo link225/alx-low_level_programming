@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - pass to newline
+ * puts2 - pass to newline
  * @s: char is pointer
  * Return: void
  */
