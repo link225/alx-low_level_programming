@@ -4,7 +4,7 @@
  * *_strcmp - concacte two string
  * @s1: first char is pointer
  * @s2: second char is pointer
- * Return: int 
+ * Return: int
  */
 
 int *_strcmp(char *s1, char *s2)
