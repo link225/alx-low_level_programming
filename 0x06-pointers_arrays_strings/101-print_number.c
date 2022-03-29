@@ -5,7 +5,7 @@
  * @a: first char is pointer
  * Return: void
  */
-void print_number(int a)
+void print_number(int n)
 {
 	unsigned int n1;
 
