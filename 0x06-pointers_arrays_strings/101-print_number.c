@@ -3,7 +3,7 @@
 /**
  * print_number - remplace letter
  * @a: first char is pointer
- * Return: void 
+ * Return: void
  */
 void print_number(int a)
 {
