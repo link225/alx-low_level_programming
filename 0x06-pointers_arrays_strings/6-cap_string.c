@@ -5,7 +5,7 @@
  * @a: first char is pointer
  * Return: char
  */
-char *string_toupper(char *a)
+char *cap_string(char *a)
 {
 	int i, trigger, c;
 
