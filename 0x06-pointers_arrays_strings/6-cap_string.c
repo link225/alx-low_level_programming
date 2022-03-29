@@ -19,7 +19,7 @@ char *cap_string(char *a)
 			trigger = 1;
 		}
 
-		for (c = 0; nots[c] != '\0'; i++)
+		for (c = 0; nots[c] != '\0'; c++)
 		{
 			if (nots[c] == a[i])
 				trigger = 1;
