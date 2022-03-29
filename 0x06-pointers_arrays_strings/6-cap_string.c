@@ -12,11 +12,11 @@ char *cap_string(char *a)
 	char nots[] = ",;.!?(){}\n\t\"";
 
 
-	for (i = 0, trigeer = 0; a[i] != '\0'; i++)
+	for (i = 0, trigger = 0; a[i] != '\0'; i++)
 	{
 		if (a[0] > 96 && a[0] < 123)
 		{
-			tigger = 1;
+			trigger = 1;
 		}
 
 		for (c = 0; nots[c] != '\0'; i++)
