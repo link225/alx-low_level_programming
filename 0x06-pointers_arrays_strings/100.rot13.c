@@ -1,11 +1,11 @@
 #include "main.h"
 #include <string.h>
 /**
- * leet - remplace letter
+ * rot13 - remplace letter
  * @a: first char is pointer
  * Return: char
  */
-char *leet(char *a)
+char *rot13(char *a)
 {
 	int i, k;
 	char tab[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
