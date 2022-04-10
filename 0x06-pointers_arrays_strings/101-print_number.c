@@ -2,10 +2,10 @@
 #include <string.h>
 /**
  * print_number - remplace letter
- * @a: first char is pointer
+ * @a: int
  * Return: void
  */
-void print_number(int n)
+void print_number(int a)
 {
 	unsigned int n1;
 
