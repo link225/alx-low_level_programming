@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strcat - concacte two string
+ * *_memset - concacte two string
  * @s: first char is pointer
  * @b: second char is pointer
  * @n: unsigned int
@@ -14,5 +14,5 @@ char *_memset(char *s, char b, unsigned int n)
 	unsigned int i;
 
 
-	return (memset(s,b,n);
+	return (memset(s, b, n));
 }
