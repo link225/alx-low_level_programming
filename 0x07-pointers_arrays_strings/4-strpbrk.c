@@ -8,7 +8,7 @@
  * Return: int
  */
 
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	return (strpbrk(s, accept));
 }
